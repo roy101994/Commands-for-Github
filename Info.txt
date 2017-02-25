@@ -1,0 +1,14 @@
+1.	git fetch –p
+2.	If you are not in the branch where you want to check-in:
+i.	git checkout <branch_name>
+3.	git pull
+4.	git status
+5.	Check how many commits you are ahead or behind. If you are ahead/behind, then follow the command:
+•	git reset –hard origin /<branch_name>
+6.	Now you are at the “HEAD” level
+7.	Then make changes
+8.	git status
+9.	git add .
+10.	git commit –a
+11.	Fill the commit template
+12.	git push origin HEAD:refs/for/<branch_name>
